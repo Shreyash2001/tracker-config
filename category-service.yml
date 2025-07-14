@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: category-service
+  data:
+    mongodb:
+      uri: mongodb://mongodb:27017/categorydb
+      database: categorydb
+server:
+  port: 8083
